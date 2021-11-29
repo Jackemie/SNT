@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url(https://i.ibb.co/syGQSfq/Diners-censored.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+body .image {
+    height: auto;
+    width: 70%;
+    max-width: 1000px;
+    min-width: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
